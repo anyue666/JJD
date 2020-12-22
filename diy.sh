@@ -11,13 +11,13 @@
 
 sed -i 's/KERNEL_PATCHVER:=4.19/KERNEL_PATCHVER:=5.4/g' target/linux/ipq40xx/Makefile
 
-# Modify default IP
+# 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
 sed -i 's/OpenWrt/R619ac/g' package/base-files/files/bin/config_generate
 
-# Modify the version number
+# 版本号里显示一个自己的名字（281677160 build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
 sed -i 's/OpenWrt/Ctxer build $(date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
 
 #修复核心及添加温度显示
@@ -42,7 +42,7 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/lu
     sed -i 's@\(CONFIG_KERNEL_BUILD_DOMAIN=\).*@\1$"GitHub Actions"@' .config
 
 
-# add packages
+# 添加源地址
 # git clone https://github.com/xiaorouji/openwrt-package/lienol/ package/lienol
 git clone https://github.com/kenzok8/openwrt-packages.git package/diy
 git clone https://github.com/kenzok8/small.git package/small
