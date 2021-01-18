@@ -43,10 +43,5 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/lu
 
 
 # 添加源地址
-git clone https://github.com/superstarfly/openwrt-package package/lienol
-git clone https://github.com/superstarfly/OpenClash package/openclash
-git clone https://github.com/jefferymvp/luci-app-koolproxyR package/koolproxyR
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/adguardhome
-git clone https://github.com/frainzy1477/luci-app-clash package/clash
-git clone https://github.com/fw876/helloworld package/ssrplus
-git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+git clone https://github.com/kenzok8/openwrt-packages.git package/diy
+git clone https://github.com/kenzok8/small.git package/small
