@@ -45,4 +45,4 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/lean/lu
 # 添加源地址
 # git clone https://github.com/xiaorouji/openwrt-package/lienol/ package/lienol
 git clone https://github.com/kenzok8/openwrt-packages.git package/diy
-git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/superstarfly/OpenClash package/openclash
