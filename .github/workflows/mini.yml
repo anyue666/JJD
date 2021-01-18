@@ -6,7 +6,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-name: Build OpenWrt R619AC
+name: Build mini
 
 on:
   workflow_dispatch:
