@@ -11,7 +11,7 @@ name: Build mini
 on:
   workflow_dispatch:
   schedule:
-    - cron: 30 3 */5 * *
+    - cron: 30 8 * * *
 #          分 时 日 月 周5
   page_build:
   release:
